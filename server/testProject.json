@@ -1,0 +1,63 @@
+{
+    "meta": {
+        "user": "5989cd1f4b35ad311584cd03",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "author": "Author",
+        "dateCreated": "Tue Aug 08 2017 07:41:01 GMT-0700 (PDT)",
+        "dateModified": "Tue Aug 08 2017 07:41:22 GMT-0700 (PDT)"
+    },
+    "options": {
+        "height": 800,
+        "width": 600,
+        "gridSize": 100,
+        "backgroundColor": "#FFFFFF",
+        "zoom": 1
+    },
+    "structure": {
+        "staffGroups": [
+            {
+                "name": "Staff Group 1",
+                "collapsed": false,
+                "attributes": {},
+                "staves": [
+                    {
+                        "name": "Staff 1",
+                        "collapsed": false,
+                        "attributes": {},
+                        "parameters": [
+                            {
+                                "name": "Parameter 1",
+                                "attributes": {
+                                    "color": "#ff0000",
+                                    "opacity": 0.5
+                                },
+                                "timeSpans": [
+                                    {
+                                        "duration": 0.25,
+                                        "curve": {
+                                            "heightStart": 0.25,
+                                            "heightEnd": 0.75,
+                                            "curveControlPointX": 0.33333,
+                                            "curveControlPointY": -0.75,
+                                            "saturationStart": 0.75,
+                                            "saturationEnd": 0.25,
+                                            "saturationControlPointX": 0.66667
+                                        },
+                                        "markup": {
+                                            "orientation": "vertical",
+                                            "size": 12,
+                                            "font": "Times",
+                                            "string": "Markup 1",
+                                            "position": "above"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: "Times New Roman", Times, serif;;
+    font-size: 14px;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  text-align: center;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+    background-color: #605959;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+header, footer {
+    flex: 0 0 40px;
+}
+
+.viewport {
+    overflow: hidden;
+    flex: 1 1 100%;
+}
+
+.score {
+    margin: 10px;
+    padding: 20px;
+    background-color: #dddddd;
+}
+
+.staff-group {
+    /*padding: 10px;*/
+    border-left: 10px solid black;
+}
+
+.staff-group .label {
+    position: absolute;
+    margin-top: -1.75em;
+    padding: 0.5em 0 0;
+}
+
+.staff:first-child {
+    margin: 0 0 5px;
+}
+.staff:last-child{
+    margin: 5px 0 0;
+}
+.staff {
+    margin: 5px 0;
+}
+
+.parameter {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.time-span{
+    flex: 0 0 0;
+    height: 100%;
+    /*border-right: 1px dotted #EEE;*/
+}
+.markup {
+    position: relative;
+    left: 0; /* fix */
+}
+.markup.above{
+    top: 0;
+}
+.markup.below{
+    bottom:0;
+}
+.markup.center{
+    top: 50%;
+}
